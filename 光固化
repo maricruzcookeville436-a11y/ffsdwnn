@@ -1,1 +1,8 @@
-
+unzip withdraws_app_full.zip -d withdraws_app_full
+cd withdraws_app_full
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/你的用户名/withdraws-demo.git
+git push -u origin main
